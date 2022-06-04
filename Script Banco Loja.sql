@@ -14,7 +14,7 @@ id_venda int not null auto_increment,
 fk_cliente int NOT NULL,
 FOREIGN KEY (fk_cliente) REFERENCES tb_cliente(id_cliente),
 dt_venda datetime NOT NULL,
-valor_total DECIMAL(5,2) NOT NULL,
+valor_total DECIMAL(10,2) NOT NULL,
 primary key(id_venda));
 
 Create table tb_tipo_produto (
@@ -31,7 +31,7 @@ primary key(id_fornecedor));
 Create table tb_produto (
 id_produto int not null auto_increment,
 no_produto VARCHAR(30) NOT NULL,
-valor DECIMAL(5,2) NOT NULL,
+valor DECIMAL(10,2) NOT NULL,
 fk_tipo_produto int NOT NULL,
 FOREIGN KEY (fk_tipo_produto) REFERENCES tb_tipo_produto(id_tipo_produto),
 fk_fornecedor int NOT NULL,
@@ -44,17 +44,8 @@ fk_venda int NOT NULL,
 FOREIGN KEY (fk_venda) REFERENCES tb_venda(id_venda),
 fk_produto int NOT NULL,
 FOREIGN KEY (fk_produto) REFERENCES tb_produto(id_produto),
-valor_itens DECIMAL(5,2) NOT NULL,
+valor_itens DECIMAL(10,2) NOT NULL,
 primary key(id_item_venda));
-
-
-Create table tb_produto (
-id_produto int not null auto_increment,
-no_produto VARCHAR(30) NOT NULL,
-valor DECIMAL(5,2) NOT NULL,
-fk_tipo_produto int NOT NULL,
-fk_fornecedor int NOT NULL,
-primary key(id_produto));
 
 
 select * from tb_cliente;

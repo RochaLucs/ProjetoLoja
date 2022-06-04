@@ -24,8 +24,8 @@
             <table border="1" cellspacing="0" cellpadding="0">
                 <tr>
                     <th>Nome</th>
-                    <th>Fornecedor</th>
-                    <th>Tipo</th>
+                    <th><a href="/ProjetoLoja/fornecedor/listarFornecedor.jsp?voltaLista=1">Fornecedor</a></th>
+                    <th><a href="/ProjetoLoja/tipos/listarTipos.jsp?voltaLista=1">Tipo</a></th>
                     <th>Valor</th>
                 </tr>      
                         
@@ -46,10 +46,9 @@
             }
         %>
             </table>
-             
-            <br><button type="submit"><a href="/ProjetoLoja/fornecedor/fornecedor.jsp">Cadastrar Fornecedor</a></button>
+            <br><button type="submit"><a href="produto.jsp">Cadastrar Produto</a></button>
+            <button type="submit"><a href="/ProjetoLoja/fornecedor/fornecedor.jsp">Cadastrar Fornecedor</a></button>
             <button type="submit"><a href="/ProjetoLoja/tipos/tipo.jsp">Cadastrar Novo Tipo</a></button> <br>
-             <br><button type="submit"><a href="/ProjetoLoja/produtos/produto.jsp">Voltar</a></button>
-            <button type="submit"><a href="/ProjetoLoja">Inicio</a></button> <br>
+            <br><button type="submit"><a href="/ProjetoLoja">Voltar</a></button>
     </body>
 </html>

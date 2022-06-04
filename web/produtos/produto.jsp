@@ -58,9 +58,9 @@
 
 
             <br><button type="submit">CADASTRAR</button>
-            <button type="submit"><a href="listarProdutos.jsp">Listar Produtos</a></button>
         </form>
             
-        <br><button type="submit"><a href="/ProjetoLoja">Voltar</a></button> <br>
+        <br><button type="submit"><a href="listarProdutos.jsp">Voltar</a></button>
+        <button type="submit"><a href="/ProjetoLoja">Inicio</a></button>
     </body>
 </html>

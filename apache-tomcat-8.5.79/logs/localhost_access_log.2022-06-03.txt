@@ -145,3 +145,9 @@
 0:0:0:0:0:0:0:1 - - [03/Jun/2022:09:57:27 -0300] "GET /docs/images/fonts/OpenSans600.woff HTTP/1.1" 200 22604
 0:0:0:0:0:0:0:1 - - [03/Jun/2022:09:57:27 -0300] "GET /docs/images/fonts/OpenSans700.woff HTTP/1.1" 200 22748
 0:0:0:0:0:0:0:1 - - [03/Jun/2022:09:57:27 -0300] "GET /docs/images/fonts/OpenSans400italic.woff HTTP/1.1" 200 21092
+127.0.0.1 - - [03/Jun/2022:10:18:33 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [03/Jun/2022:10:18:33 -0300] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [03/Jun/2022:10:18:33 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [03/Jun/2022:10:18:33 -0300] "GET /manager/text/ HTTP/1.1" 200 39
+127.0.0.1 - - [03/Jun/2022:10:18:33 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [03/Jun/2022:10:18:33 -0300] "GET /manager/text/ HTTP/1.1" 200 39

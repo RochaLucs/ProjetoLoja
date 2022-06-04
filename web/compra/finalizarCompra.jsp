@@ -43,13 +43,10 @@
                 
                 for(int num = 0; num < lista.size(); num++){
                     if(request.getParameter("selected" + num) != null){
-                        //System.out.println(lista.get(num).getNome_produto());
                         itemVenda.adicionaItens(Integer.parseInt(request.getParameter("selected" + num)));
                     }else{
-                        System.out.println(lista.get(num).getNome_produto());
                         lista.remove(lista.get(num));
                     }
-                    //System.out.println(lista.get(num).getNome_produto());
                 }
                 if(lista.isEmpty() && lista == null){
                     out.print("Nenhum item foi selecionado");

@@ -37,6 +37,19 @@
             }
         %>
             </table>
-            <button type="submit"><a href="tipo.jsp">Voltar</a></button> <br>
+         <%
+            try {
+            String voltar = request.getParameter("voltaLista");
+            if(voltar!= null){
+                 System.out.println(voltar);
+                 out.print("<button type=\"" + "submit\"" + "><a href=\"" + "/ProjetoLoja/produtos/listarProdutos.jsp\"" + ">Voltar</a></button>");
+             }else{
+                 System.out.println(voltar);
+                 out.print("<button type=\"" + "submit\"" + "><a href=\"" + "tipo.jsp\"" + ">Voltar</a></button>");
+             }      
+            } catch (Exception e) {
+            }
+            
+            %>
     </body>
 </html>

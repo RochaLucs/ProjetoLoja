@@ -34,6 +34,7 @@ public class VendaDAO {
             pstm = con.prepareStatement(sql);
             pstm.setInt(1, venda.getFk_cliente());
             pstm.setString(2, venda.armazenaData());
+            System.out.println(venda.getValor_total());
             pstm.setString(3, venda.getValor_total());
             pstm.execute();
             pstm.close();

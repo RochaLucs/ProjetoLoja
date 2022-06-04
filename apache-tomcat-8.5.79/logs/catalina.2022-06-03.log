@@ -253,3 +253,8 @@
 03-Jun-2022 09:56:13.465 INFORMAÇÕES [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\Projetos Java\ProjetoLoja\apache-tomcat-8.5.79\webapps\ROOT] has finished in [13] ms
 03-Jun-2022 09:56:13.466 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
 03-Jun-2022 09:56:13.476 INFORMAÇÕES [main] org.apache.catalina.startup.Catalina.start Server startup in 773 ms
+03-Jun-2022 10:18:33.471 INFORMAÇÕES [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+03-Jun-2022 10:18:33.472 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+03-Jun-2022 10:18:33.527 INFORMAÇÕES [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+03-Jun-2022 10:18:33.540 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+03-Jun-2022 10:18:33.562 INFORMAÇÕES [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
